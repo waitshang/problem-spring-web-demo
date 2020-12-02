@@ -1,0 +1,16 @@
+server:
+  port: 9904
+spring:
+  application:
+    name: problem-spring-web-auth-server
+  resources:
+    add-mappings: false
+  mvc:
+    throw-exception-if-no-handler-found: true
+logging:
+  level:
+    ROOT: INFO
+    org.apache: INFO
+    sun: INFO
+    com.alibaba: INFO
+    org.springframework.security: DEBUG
